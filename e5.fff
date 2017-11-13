@@ -13,7 +13,7 @@
 
   \centering
 \includegraphics[width=\linewidth]{previousplot.png}
-  \caption{Procedure of a given trial.}
+  \caption{gestures}
   \label{fig:plot}
 \end{figure*}
 \efloatseparator
