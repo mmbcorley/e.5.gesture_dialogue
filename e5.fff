@@ -1,0 +1,10 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+  \centering
+\includegraphics[width=\linewidth]{trial.png}
+  \caption{Procedure of a given trial.}
+  \label{fig:trial}
+\end{figure*}
+\efloatseparator
+ 
