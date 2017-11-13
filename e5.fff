@@ -8,3 +8,13 @@
 \end{figure*}
 \efloatseparator
  
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+  \centering
+\includegraphics[width=\linewidth]{previousplot.png}
+  \caption{Procedure of a given trial.}
+  \label{fig:plot}
+\end{figure*}
+\efloatseparator
+ 
