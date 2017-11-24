@@ -15,6 +15,8 @@
 \newcommand*{\term}[1]{\emph{#1}} % introducing a new term
 \newcommand*{\citegen}[1]{\citeauthor{#1}'s~(\citeyear{#1})}
 \newcommand*{\SE}{\mathit{SE}} % fix funny "SE" spacing
+\newcommand{\resultsLog}[3]{$\beta = #1$, $\textnormal{SE} = #2$, $p #3$}
+\newcommand{\resultsLM}[3]{$\beta = #1$, $\textnormal{SE} = #2$, $t #3$}
 
 \title{<Martin's pithy title about gesture and speech>.}
 \author{JK, MC, HR}
@@ -30,14 +32,24 @@ Edinburgh EH8~9JZ, UK\\[1ex]
 
 \shorttitle{e5 - gesture production}
 
-\abstract{}
+\abstract{                   
+When a task becomes more conceptually demanding, speakers tend to produce more gestures.  This might be because gestures help the speaker package more complex information into appropriate units for speech, or because some of the communicative load is being traded off from speech to gesture.  The present study is a dialogue study designed to tease apart these views.
 
+Previous research has found evidence for both views.  Speech and gesture have been found to specify referents in parallel, but a general increase in gesture duration over a trial has been found when referents are less describable.
+
+Studies such as these have tended to look at the relationship between gesture and speech where there is no addressee, or where the addressee is not explicitly contributing to a dialogue.  Moreover, gesture has tended to be measured as the number of discrete gestures per word or trial.  Because gestures and vocalisations can vary in durations, these metrics fail to capture the relative contributions of each. In the present study we use naturalistically-occurring dialogues, and measure the relative durations of gestures and speech directly, in order to establish whether they co-vary (as would be predicted by the packaging account) or correlate inversely (as would be predicted by a trade-off).
+
+Twenty-two pairs of participants took part in a shape-matching game, in which a director described two target shapes, and a matcher attempted to identify the correct referents among an array of competitors.  Roles alternated on each trial, and the shapes were either easy or difficult to verbally encode.  Directors saw two shapes (one easy, one difficult) for two seconds. They then had 10 seconds to describe these shapes to their partner.  Points were scored for each shape which the matcher correctly identified in an array of six shapes.
+
+In line with an information packaging account, speech duration and gesture duration increased in parallel for easy-to-name objects \resultsLM{0.57}{0.06}{>2}.  Importantly, when participants were referring to objects which were more difficult to verbally encode, gesture duration increased at a higher rate than speech duration \resultsLM{0.27}{0.06}{>2}.
+
+This suggests that, when naming difficult objects, gesture does more than simply help the speaker to package verbal information.  Instead, gesture serves an additional communicative purpose, adding to, but not trading off against, the verbal descriptions which are uttered.
+}
 
 \begin{document}
 \maketitle
 
 
-\section{Introduction}
 \noindent
 During conversation, speakers often move their hands and arms in meaningfuls ways which co-express the content of their speech \citep{McNeill1992}:
 These movements might add emphasis to speech; indicate location; or depict properties of objects, movements, actions or space.
