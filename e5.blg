@@ -12,45 +12,62 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: e5.bib
+Repeated entry---line 223 of file e5.bib
+ : @article{Hostetter2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 417 of file e5.bib
+ : @article{Rauscher1996
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 713 of file e5.bib
+ : @article{Gerwing2004
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 726 of file e5.bib
+ : @article{Goldin-Meadow2001
+ :                           ,
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 29 entries,
+You've used 34 entries,
             6951 wiz_defined-function locations,
-            1503 strings with 17061 characters,
-and the built_in function-call counts, 56263 in all, are:
-= -- 6818
-> -- 465
-< -- 2786
-+ -- 2805
-- -- 58
-* -- 3823
-:= -- 10459
-add.period$ -- 118
-call.type$ -- 29
-change.case$ -- 494
+            1543 strings with 18186 characters,
+and the built_in function-call counts, 66253 in all, are:
+= -- 8034
+> -- 561
+< -- 3277
++ -- 3296
+- -- 68
+* -- 4494
+:= -- 12315
+add.period$ -- 138
+call.type$ -- 34
+change.case$ -- 579
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 1488
-empty$ -- 2230
-format.name$ -- 771
-if$ -- 10560
+cite$ -- 68
+duplicate$ -- 1760
+empty$ -- 2611
+format.name$ -- 916
+if$ -- 12455
 int.to.chr$ -- 0
-int.to.str$ -- 87
+int.to.str$ -- 102
 missing$ -- 0
-newline$ -- 800
-num.names$ -- 234
-pop$ -- 753
+newline$ -- 937
+num.names$ -- 274
+pop$ -- 892
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 136
 quote$ -- 0
-skip$ -- 3640
+skip$ -- 4258
 stack$ -- 0
-substring$ -- 3026
-swap$ -- 943
-text.length$ -- 66
+substring$ -- 3585
+swap$ -- 1113
+text.length$ -- 90
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2384
+type$ -- 2784
 warning$ -- 0
-while$ -- 260
+while$ -- 309
 width$ -- 0
-write$ -- 990
+write$ -- 1165
+(There were 4 error messages)
