@@ -12,62 +12,58 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: e5.bib
-Repeated entry---line 223 of file e5.bib
- : @article{Hostetter2007
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 417 of file e5.bib
- : @article{Rauscher1996
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 713 of file e5.bib
- : @article{Gerwing2004
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 726 of file e5.bib
+Repeated entry---line 380 of file e5.bib
  : @article{Goldin-Meadow2001
  :                           ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 455 of file e5.bib
+ : @article{Rauscher1996
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 684 of file e5.bib
+ : @article{Hostetter2007
+ :                       ,
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 34 entries,
+You've used 28 entries,
             6951 wiz_defined-function locations,
-            1543 strings with 18186 characters,
-and the built_in function-call counts, 66253 in all, are:
-= -- 8034
-> -- 561
-< -- 3277
-+ -- 3296
-- -- 68
-* -- 4494
-:= -- 12315
-add.period$ -- 138
-call.type$ -- 34
-change.case$ -- 579
+            1495 strings with 17007 characters,
+and the built_in function-call counts, 54978 in all, are:
+= -- 6669
+> -- 472
+< -- 2712
++ -- 2743
+- -- 56
+* -- 3712
+:= -- 10202
+add.period$ -- 114
+call.type$ -- 28
+change.case$ -- 477
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 1760
-empty$ -- 2611
-format.name$ -- 916
-if$ -- 12455
+cite$ -- 56
+duplicate$ -- 1470
+empty$ -- 2168
+format.name$ -- 765
+if$ -- 10339
 int.to.chr$ -- 0
-int.to.str$ -- 102
+int.to.str$ -- 84
 missing$ -- 0
-newline$ -- 937
-num.names$ -- 274
-pop$ -- 892
+newline$ -- 777
+num.names$ -- 226
+pop$ -- 773
 preamble$ -- 1
-purify$ -- 136
+purify$ -- 112
 quote$ -- 0
-skip$ -- 4258
+skip$ -- 3505
 stack$ -- 0
-substring$ -- 3585
-swap$ -- 1113
-text.length$ -- 90
+substring$ -- 2990
+swap$ -- 914
+text.length$ -- 78
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2784
+type$ -- 2304
 warning$ -- 0
-while$ -- 309
+while$ -- 262
 width$ -- 0
-write$ -- 1165
-(There were 4 error messages)
+write$ -- 968
+(There were 3 error messages)

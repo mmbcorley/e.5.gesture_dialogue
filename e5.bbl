@@ -94,36 +94,6 @@ Bavelas, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Bavelas%
-, Kenwood%
-, Johnson%
-\BCBL {}\ \BBA {} Phillips%
-}{%
-Bavelas%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2002}}%
-}]{%
-Bavelas2002}
-\APACinsertmetastar {%
-Bavelas2002}%
-\begin{APACrefauthors}%
-Bavelas, J.%
-, Kenwood, C.%
-, Johnson, T.%
-\BCBL {}\ \BBA {} Phillips, B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2002}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{An experimental study of when and how speakers use
-  gestures to communicate}} {{An experimental study of when and how speakers
-  use gestures to communicate}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Gesture}{2}{1}{1--17}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Clark%
 }{%
 Clark%
@@ -146,31 +116,26 @@ Clark, H\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Cohen%
-\ \BBA {} Harrison%
+de Ruiter%
 }{%
-Cohen%
-\ \BBA {} Harrison%
+de Ruiter%
 }{%
-{\protect \APACyear {1973}}%
+{\protect \APACyear {1998}}%
 }]{%
-Cohen1973}
+DeRuiter1998}
 \APACinsertmetastar {%
-Cohen1973}%
+DeRuiter1998}%
 \begin{APACrefauthors}%
-Cohen, A\BPBI A.%
-\BCBT {}\ \BBA {} Harrison, R\BPBI P.%
+de Ruiter, J\BPBI P.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1973}{}{}.
+\APACrefYear{1998}.
 \newblock
-{\BBOQ}\APACrefatitle {{Intentionality in the use of hand illustrators in
-  face-to-face communication situations.}} {{Intentionality in the use of hand
-  illustrators in face-to-face communication situations.}}{\BBCQ}
+\APACrefbtitle {{Gesture and speech production}} {{Gesture and speech
+  production}}.
 \newblock
-\APACjournalVolNumPages{Journal of Personality and Social
-  Psychology}{28}{2}{276}.
+\APACaddressPublisher{}{[Sl: sn]}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -265,38 +230,6 @@ Gerwing, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Gerwing%
-\ \BBA {} Bavelas%
-}{%
-Gerwing%
-\ \BBA {} Bavelas%
-}{%
-{\protect \APACyear {2005}}%
-}]{%
-Gerwing2004}
-\APACinsertmetastar {%
-Gerwing2004}%
-\begin{APACrefauthors}%
-Gerwing, J.%
-\BCBT {}\ \BBA {} Bavelas, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Linguistic influences on gesture's form}} {{Linguistic
-  influences on gesture's form}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Gesture}{4}{2}{157--195}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.jbe-platform.com/content/journals/10.1075/gest.4.2.04ger}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1075/gest.4.2.04ger} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Goldin-Meadow%
 , Nusbaum%
 , Kelly%
@@ -329,11 +262,11 @@ Goldin-Meadow, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-HADAR%
-\ \BBA {} BUTTERWORTH%
+Hadar%
+\ \BBA {} Butterworth%
 }{%
-HADAR%
-\ \BBA {} BUTTERWORTH%
+Hadar%
+\ \BBA {} Butterworth%
 }{%
 {\protect \APACyear {1997}}%
 }]{%
@@ -341,8 +274,8 @@ Hadar1997}
 \APACinsertmetastar {%
 Hadar1997}%
 \begin{APACrefauthors}%
-HADAR, U.%
-\BCBT {}\ \BBA {} BUTTERWORTH, B.%
+Hadar, U.%
+\BCBT {}\ \BBA {} Butterworth, B.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -432,61 +365,6 @@ Holler, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Holler%
-\ \BBA {} Wilkin%
-}{%
-Holler%
-\ \BBA {} Wilkin%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-Holler2011}
-\APACinsertmetastar {%
-Holler2011}%
-\begin{APACrefauthors}%
-Holler, J.%
-\BCBT {}\ \BBA {} Wilkin, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Co-Speech Gesture Mimicry in the Process of
-  Collaborative Referring During Face-to-Face Dialogue}} {{Co-Speech Gesture
-  Mimicry in the Process of Collaborative Referring During Face-to-Face
-  Dialogue}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Nonverbal Behavior}{35}{2}{133--153}.
-\newblock
-\begin{APACrefDOI} \doi{10.1007/s10919-011-0105-6} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Hostetter%
-}{%
-Hostetter%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-Hostetter2011}
-\APACinsertmetastar {%
-Hostetter2011}%
-\begin{APACrefauthors}%
-Hostetter, A\BPBI B.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{When do gestures communicate? A meta-analysis.}} {{When
-  do gestures communicate? A meta-analysis.}}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Psychological bulletin}{137}{2}{297--315}.
-\newblock
-\begin{APACrefDOI} \doi{10.1037/a0022128} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Hostetter%
 , Alibali%
 \BCBL {}\ \BBA {} Kita%
@@ -514,58 +392,6 @@ Hostetter, A\BPBI B.%
 \APACjournalVolNumPages{Language and Cognitive Processes}{22}{3}{313--336}.
 \newblock
 \begin{APACrefDOI} \doi{10.1080/01690960600632812} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Jacobs%
-\ \BBA {} Garnham%
-}{%
-Jacobs%
-\ \BBA {} Garnham%
-}{%
-{\protect \APACyear {2007}}%
-}]{%
-Jacobs2007}
-\APACinsertmetastar {%
-Jacobs2007}%
-\begin{APACrefauthors}%
-Jacobs, N.%
-\BCBT {}\ \BBA {} Garnham, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{The role of conversational hand gestures in a narrative
-  task}} {{The role of conversational hand gestures in a narrative
-  task}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Memory and Language}{56}{2}{291--303}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Kimbara%
-}{%
-Kimbara%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-Kimbara2008}
-\APACinsertmetastar {%
-Kimbara2008}%
-\begin{APACrefauthors}%
-Kimbara, I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2008}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Gesture form convergence in joint description}}
-  {{Gesture form convergence in joint description}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Nonverbal Behavior}{32}{2}{123--131}.
-\newblock
-\begin{APACrefDOI} \doi{10.1007/s10919-007-0044-4} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

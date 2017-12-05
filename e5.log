@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  28 NOV 2017 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  5 DEC 2017 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -670,11 +670,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 95.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
@@ -683,11 +678,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7]
 [8]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 204.
+(Font)              <10> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 204.
+(Font)              <7> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 204.
+(Font)              <5> on input line 160.
  [9]
 \openout4 = `e5.fff'.
 
@@ -695,7 +690,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Underfull \vbox (badness 2913) has occurred while \output is active []
 
  [10]
-[11] [12] (./e5.bbl [13]
+[11]
+Underfull \vbox (badness 6094) has occurred while \output is active []
+
+ [12]
+(./e5.bbl [13]
 Underfull \vbox (badness 2310) has occurred while \output is active []
 
  [14
@@ -708,7 +707,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16])
 AED endfloat: Processing end Figures and Tables [17] (./e5.fff
-<trial.png, id=345, 1520.68124pt x 1444.39626pt>
+<trial.png, id=320, 1520.68124pt x 1444.39626pt>
 File: trial.png Graphic file (type png)
  <use trial.png>
 Package pdftex.def Info: trial.png used on input line 5.
@@ -716,7 +715,7 @@ Package pdftex.def Info: trial.png used on input line 5.
  [18
 
 
- <./trial.png>] <previousplot.png, id=352, 1138.0116pt x 853.5087pt>
+ <./trial.png>] <previousplot.png, id=327, 1138.0116pt x 853.5087pt>
 File: previousplot.png Graphic file (type png)
 
 <use previousplot.png>
@@ -725,27 +724,23 @@ Package pdftex.def Info: previousplot.png used on input line 15.
  [19
 
  <./previousplot.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
  (./e5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `e5.out' has not changed.
-(rerunfilecheck)             Checksum: 3CA23C5CF36571AEE0EFDACAFCC5CE55;890.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+(rerunfilecheck)             Checksum: F69224E9C20FAEF5767905A375D3D4CB;697.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
- 11562 strings out of 493029
- 175365 string characters out of 6136234
- 308337 words of memory out of 5000000
- 14753 multiletter control sequences out of 15000+600000
- 79394 words of font info for 102 fonts, out of 8000000 for 9000
+ 11516 strings out of 493029
+ 174617 string characters out of 6136234
+ 308976 words of memory out of 5000000
+ 14720 multiletter control sequences out of 15000+600000
+ 79060 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,47p,708b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,47p,708b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share
 /texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm
@@ -754,10 +749,10 @@ ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share
 fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on e5.pdf (19 pages, 500697 bytes).
+Output written on e5.pdf (19 pages, 498654 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 21131 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 21107 words of extra memory for PDF output out of 24883 (max. 10000000)
 
