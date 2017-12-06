@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  5 DEC 2017 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  6 DEC 2017 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -678,11 +678,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [7]
 [8]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 160.
+(Font)              <10> on input line 163.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 160.
+(Font)              <7> on input line 163.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 160.
+(Font)              <5> on input line 163.
  [9]
 \openout4 = `e5.fff'.
 
@@ -724,14 +724,14 @@ Package pdftex.def Info: previousplot.png used on input line 15.
  [19
 
  <./previousplot.png (PNG copy)>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
  (./e5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 Package rerunfilecheck Info: File `e5.out' has not changed.
 (rerunfilecheck)             Checksum: F69224E9C20FAEF5767905A375D3D4CB;697.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
  ) 
 Here is how much of TeX's memory you used:
  11516 strings out of 493029
@@ -749,7 +749,7 @@ ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share
 fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on e5.pdf (19 pages, 498654 bytes).
+Output written on e5.pdf (19 pages, 498677 bytes).
 PDF statistics:
  386 PDF objects out of 1000 (max. 8388607)
  349 compressed objects within 4 object streams
