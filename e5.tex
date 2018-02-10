@@ -228,9 +228,9 @@ Other movements were categorised as either adaptor gestures (scratching, strokin
 Individual gestures were identified by onset of movement, and continued either until the start of the retraction phase, or until transformation into a) a different category of gesture or b) iconic gesturing referring to a different shape (i.e. the other shape in the trial).
 
 The third stage of the coding process (audio and video) was used to confirm the coding of the first and second stages, specifically gesture categorisation and pairing of gestures with referents.
-Additionally, this stage was used to code whether or not the utterance referred explicitly to the gesture being made (e.g. "like this","like that","a bit here", etc.)
 Several gestures remained ambiguous between iconic and beat even after this third stage (n referencing easy shapes, and n referencing difficult shapes).%JK N=? fill in 
 These were considered to be imprecise/lax attempts at representing the shapes in space, and thus coded as iconic gestures.
+Additionally, this stage was used to code whether or not the utterance referred explicitly to the gesture being made (e.g. "like this","like that","a bit here", etc.)
 
 Once identified, iconic gestures were coded for gesture duration analogously to the measure of utterance duration:
 Gesture duration for iconic gestures was measured from the onset of the first stroke or hold phase up until the retraction phase, or until interruption.
@@ -241,12 +241,33 @@ Any suspected false starts and repetitions were counted (a finger trace which is
 
 Additionally, all gestures were coded for the hands used (Left, Right, or Both), and whether the representational part of the gesture was conveyed dynamically, statically, or as a combination of both. 
 
-\section{Analysis}
+\subsection{Second rater}
+For 20\% of critical trials, interrater agreement was measured for utterance duration, gesture duration and gesture type, with the second rater blind to the study aims (e.g. blind to the focus on the speech duration:gesture duration ratio).
+%JK results of second coding.
 
-
-
+%Additionally, we measured the change in positions of skin tone pixels (excluding the area surrounding faces) between video frames. 
+%The durations of movements which overlapped utterance durations were included as an alternative measure of gesture duration.
+%Whilst this metric cannot be used to separate preparatory and retraction phases from gestures, it provides an objective measure of how much participants moved whilst speaking about different referents.
+%Unfortunately, this method is not yet sophisticated enough to identify gestural holds, and as such only captures the dynamic components of gesturing.
 
 \section{Results}
+\subsection{Analysis}
+Analysis was carried out in R version~3.4.2 \citep{rbase}, using the lme4 package \citep{lme4}. 
+For trials in which participants made no attempt to describe one or both of the shapes --- either due to running out of time, forgetting to describe a shape, or appearing to forget what shape they had seen --- those descriptions were excluded from all analysis (0.7\% of descriptions to shapes).
+
+For remaining trials (1748).
+For each type of gesture that was identified (Iconic, Beat, Point, Adaptors, and Others) the production of these gestures (categorical gesture vs.\@ no gesture) was modelled using mixed effects logistic regression. 
+Verbal codability (easy-to-name vs.\@ hard-to-name), trial number (1-80) and their interaction were included as fixed effects, and also as random effects by-participants. 
+Random intercepts for both participants and shapes were also included, with a random effect of trial number by-shape.
+
+For all descriptions involving iconic gesturing (n = 1301), spoken reference to the gestural component of a description (e.g. "like this") was modelled using the same fixed and random effect structure.
+
+
+
+
+
+
+
 \begin{figure}
   \centering
 	\includegraphics[width=\linewidth]{previousplot.png}
@@ -255,8 +276,10 @@ Additionally, all gestures were coded for the hands used (Left, Right, or Both),
 \end{figure}
 
 \section{discussion}
-we should do a director/matcher task with varying noise. i.e. for n trials, white noise happens, making it harder to convey information via speech.
-and for n trials, they have to hold something in their hands (making gesturing harder).
+duration measures - pros and cons.
+where to measure from. hangs etc. 
+when is iconic iconic? when is it beat? - also applies to other measures 
+
 
 
 
