@@ -18,7 +18,7 @@
 \newcommand{\resultsLog}[3]{$\beta = #1$, $\textnormal{SE} = #2$, $p #3$}
 \newcommand{\resultsLM}[3]{$\beta = #1$, $\textnormal{SE} = #2$, $t #3$}
 
-\title{<Martin's pithy title about gesture and speech>.}
+\title{Gestures do semantic work}
 \author{JK, MC, HR}
 \affiliation{Psychology, PPLS, University of Edinburgh}
 \ifapamodeman{\note{\begin{flushleft}%
@@ -126,7 +126,8 @@ With this in mind, the present study elicits semi-naturalistic dialogues in whic
 Pairs of participants engaged in a collaborative matching game, in which they were tasked with matching two target shapes seen by one particpant from a set of six shapes seen by the other participant. 
 Participants took turns in the roles of \term{director} and \term{matcher}.
 Target shapes varied in verbal codability --- they were either easy- or hard-to-name.
-We also manipulated participants' familiarity with the target shapes in both roles (director and matcher) --- descriptions referred to either a previously named target, a previously viewed target, or a novel one.
+We also manipulated participants' familiarity with the target shapes in both roles (director and matcher) --- shapes were seen 4 times acros the experiment, meaning that descriptions were elicited for when speakers had previously described the shape, when they had previously had the shape described to them, and when the shape was novel. 
+In a subset of trials in the second half of the experiment, familiarity was directly controlled such that the hard-to-name shape was repeated in consecutive trials. 
 
 
 \subsection{Materials}
@@ -155,7 +156,7 @@ In the first block, trials were sampled randomly from a set of 20 critical trial
 Selection was constrained such that shapes were never repeated in consecutive critical trials.
 Whilst the majority of the shapes were described once by each participant, the probability that a given shape was described twice by the same participant was 25\%.\footnote{Whilst the intention was to make it so that each participant described each critical shape once, a typing error in the experiment script resulted in these distributions} 
 
-In the second block the goal was to get a measure of behaviour for familiar objects 
+In the second block the goal was to get a measure of behaviour when familiarity with the shape was more controlled. 
 In the second block, pairs of consecutive critical trials alternated with pairs of filler trials. 
 For the consecutive critical trials, the difficult-to-name shape was repeated.
 This meant that for critical trials where participant B was the director, they were tasked with describing the difficult shape which had just been described to them in the previous trial by participant A.
@@ -181,6 +182,10 @@ The aim of this was to encourage participants to look at their partners during c
 Gesturing was permitted but not explicitly encouraged, as participants were told that during this period, they were "both allowed to talk, gesture, ask questions, and so on".
 
 Feedback was given at the end of each trial (The number of correctly matched shapes was signified by an equivalent number of bell rings, with zero correct resulting in a buzzer), and the participants' cumulative score was displayed.
+
+At the end of the experiment, participants were asked to complete a short questionnaire about their experience during the game.
+This questionnaire included asking whether it had occurred to them during the experiment that the study might be interested in gestures.
+For positive responses to this question, a follow-up question asked them to rate how much they felt that this affected their behaviour during the experiment (1=``Not at all'' to 7=``A lot'').
 
 \begin{figure}
   \centering
@@ -233,7 +238,7 @@ These were considered to be imprecise/lax attempts at representing the shapes in
 Additionally, this stage was used to code whether or not the utterance referred explicitly to the gesture being made (e.g. "like this","like that","a bit here", etc.)
 
 Once identified, iconic gestures were coded for gesture duration analogously to the measure of utterance duration:
-Gesture duration for iconic gestures was measured from the onset of the first stroke or hold phase up until the retraction phase, or until interruption.
+Gesture duration for iconic gestures was measured from the onset of the first stroke or hold phase (and so excludes initial preparation phase) up until the retraction phase, or until interruption.
 End-of-gesture hangs (uninformative hangs immediately prior to a retraction phase) were not included.\footnote{We discerned here between end-of-gesture \term{hangs} and end-of-gesture \term{holds} which continued to convey some representational content, and were thus included as part of gesture duration}
 
 This measure of gesture duration included any hangs, false starts, or preparation which occurred within-gesture, just as utterance duration included within-utterance pauses and disfluencies.
@@ -251,47 +256,55 @@ For 20\% of critical trials, interrater agreement was measured for utterance dur
 %Unfortunately, this method is not yet sophisticated enough to identify gestural holds, and as such only captures the dynamic components of gesturing.
 
 \section{Results}
+Forty-four participants in 22 pairs took part in the experiment in return for \pounds{7}.
+When questioned, 33 (75\%) participants indicated that it had occurred to them that the experiment might be interested in gestures.
+The follow-up question showed that these participants in general felt that this did not affect their behaviour during the experiment that much: 26 gave a rating of $\leq$3, and only 1 participant gave a rating $\geq$6. 
+
 \subsection{Analysis}
 Analysis was carried out in R version~3.4.2 \citep{rbase}, using the lme4 package \citep{lme4}.
 Only the critical trials were included in the analysis (1760 of the 3520 referring expressions elicited).
 For trials in which participants made no attempt to describe one or both of the shapes --- either due to running out of time, forgetting to describe a shape, or appearing to forget what shape they had seen --- those descriptions were excluded from all analysis (0.7\% of referring expressions).
 
-\paragraph{G vs No G}
-On the remaining 1748 descriptions, the production (categorical gesture vs.\@ no gesture) of each type of gesturing (Iconic, Beat, Point, Adaptors, and Others) was modelled using mixed effects logistic regression. 
+Of the remaining 1748 descriptions, 1494 (86\%) were accompanied by some form of gesturing. 
+The experiment elicited far more iconic gesturing than was hoped, with 1301 descriptions (74\%) being accompanied by an attempt to gesturally represent the target shape.
+Pairs correctly matched almost all the shapes, with the listener making an incorrect response for only 4.5\% of descriptions of hard shapes and 2.8\% of descriptions to easy shapes.
+
+For all 1748 descriptions, the production (categorical gesture vs.\@ no gesture) of each type of gesturing (Iconic, Beat, Point, Adaptors, and Others) was modelled using mixed effects logistic regression. 
 Verbal codability (easy-to-name vs.\@ hard-to-name), description number for each speaker (1-80) and their interaction were included as fixed effects, with random intercepts both by-participants and by-shapes and a by-participant random effect of verbal codability.
 For all referring expressions accompanied by iconic gesturing (n = 1301), spoken reference to the gestural component of a description (``like this'';``a bit here'') was modelled with the same fixed and random effect structure.
 
-\paragraph{relationship}
 To investigate whether gesturing co-varies or trades off against speech, the duration of iconic gesturing (Z-scored) was analysed using mixed effects linear regression.
 Utterance duration (Z-scored), Verbal codability, description number, and all interactions were included as fixed effects. 
 Random intercepts and random slopes for utterance duration, verbal codability and their interaction were included by-subject, along with random intercepts and effects of verbal codability by-shape.
 
-\paragraph{gestures and disfluencies}
+%\paragraph{gestures and disfluencies}
 
-\paragraph{gesturing and familiarity with shapes}
-Given the experimental design, it was possible to code each speakers familiarity with 
+Given the experimental design, it was possible to assess each speakers familiarity with the shapes being described in a given trial.  
+We coded a shape's familiarity as falling into one of five categories: New; Described (speaker has described this shape before but not had it described to them); Heard (speaker has had this shape described to them before but has not described it themselves); Heard and Described (speaker has had to both describe this shape before, and has also previously had it described to them); and Heard in the previous trial (speaker has had this shape described to them in the trial immediately preceding this one).
+Table \ref{table:familiar} shows a breakdown of these categories by both verbal codability and experimental block.
+
+\begin{table}
+\caption{Familiarity across experimental blocks.}
+\label{table:familiar}
+\begin{tabularx}{\linewidth}{YYYYYY}
+\hline
+& New & Heard & Described & Heard \& Described & Heard in previous trial\\
+\hline
+\textbf{Block 1} & & & & & \\
+Easy-to-name & 220 & 99  & 118 & 0 & 0 \\
+Hard-to-name & 220 & 106 & 110 & 0 & 0\\
+\textbf{Block 2} & & & & & \\
+Easy-to-name & 0 & 117 & 62 & 244 & 11 \\
+Hard-to-name & 0 & 53 & 64 & 118 & 206 \\
+\hline
+\end{tabularx}
+\end{table}
+
+\subsection{Production of gesture types}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-\begin{figure}
-  \centering
-	\includegraphics[width=\linewidth]{previousplot.png}
-  \caption{gestures}
-  \label{fig:plot}
-\end{figure}
 
 \section{discussion}
 duration measures - pros and cons.
