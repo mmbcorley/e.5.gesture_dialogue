@@ -252,15 +252,33 @@ For 20\% of critical trials, interrater agreement was measured for utterance dur
 
 \section{Results}
 \subsection{Analysis}
-Analysis was carried out in R version~3.4.2 \citep{rbase}, using the lme4 package \citep{lme4}. 
-For trials in which participants made no attempt to describe one or both of the shapes --- either due to running out of time, forgetting to describe a shape, or appearing to forget what shape they had seen --- those descriptions were excluded from all analysis (0.7\% of descriptions to shapes).
+Analysis was carried out in R version~3.4.2 \citep{rbase}, using the lme4 package \citep{lme4}.
+Only the critical trials were included in the analysis (1760 of the 3520 referring expressions elicited).
+For trials in which participants made no attempt to describe one or both of the shapes --- either due to running out of time, forgetting to describe a shape, or appearing to forget what shape they had seen --- those descriptions were excluded from all analysis (0.7\% of referring expressions).
 
-For remaining trials (1748).
-For each type of gesture that was identified (Iconic, Beat, Point, Adaptors, and Others) the production of these gestures (categorical gesture vs.\@ no gesture) was modelled using mixed effects logistic regression. 
-Verbal codability (easy-to-name vs.\@ hard-to-name), trial number (1-80) and their interaction were included as fixed effects, and also as random effects by-participants. 
-Random intercepts for both participants and shapes were also included, with a random effect of trial number by-shape.
+\paragraph{G vs No G}
+On the remaining 1748 descriptions, the production (categorical gesture vs.\@ no gesture) of each type of gesturing (Iconic, Beat, Point, Adaptors, and Others) was modelled using mixed effects logistic regression. 
+Verbal codability (easy-to-name vs.\@ hard-to-name), description number for each speaker (1-80) and their interaction were included as fixed effects, with random intercepts both by-participants and by-shapes and a by-participant random effect of verbal codability.
+For all referring expressions accompanied by iconic gesturing (n = 1301), spoken reference to the gestural component of a description (``like this'';``a bit here'') was modelled with the same fixed and random effect structure.
 
-For all descriptions involving iconic gesturing (n = 1301), spoken reference to the gestural component of a description (e.g. "like this") was modelled using the same fixed and random effect structure.
+\paragraph{relationship}
+To investigate whether gesturing co-varies or trades off against speech, the duration of iconic gesturing (Z-scored) was analysed using mixed effects linear regression.
+Utterance duration (Z-scored), Verbal codability, description number, and all interactions were included as fixed effects. 
+Random intercepts and random slopes for utterance duration, verbal codability and their interaction were included by-subject, along with random intercepts and effects of verbal codability by-shape.
+
+\paragraph{gestures and disfluencies}
+
+\paragraph{gesturing and familiarity with shapes}
+Given the experimental design, it was possible to code each speakers familiarity with 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,9 +297,11 @@ For all descriptions involving iconic gesturing (n = 1301), spoken reference to 
 duration measures - pros and cons.
 where to measure from. hangs etc. 
 when is iconic iconic? when is it beat? - also applies to other measures 
+describability vs complexity
 
-
-
+driven by two things.
+descriptions of easy shapes which are familiar, but have a longer utterance ("a circle, just the normal circle we've seen lots")
+and descriptions of difficult shapes with oblig iconics ("like this"[long gesture]")
 
 
 
