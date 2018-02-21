@@ -267,28 +267,26 @@ For trials in which participants made no attempt to describe one or both of the 
 
 Of the remaining 1748 descriptions, 1494 (86\%) were accompanied by some form of gesturing. 
 The experiment elicited far more iconic gesturing than was hoped, with 1301 descriptions (74\%) being accompanied by an attempt to gesturally represent the target shape.
-Pairs correctly matched almost all the shapes, with the listener making an incorrect response for only 4.5\% of descriptions of hard shapes and 2.8\% of descriptions to easy shapes.
-
-
-Table \ref{table:gtypes} shows the occurrence of different types of gestures accompanying descriptions of easy- and hard-to-name shapes.
-
-For all 1748 descriptions, the occurrence (gesture vs.\@ no gesture) of iconic gesturing in a trial was modelled using mixed effects logistic regression. 
-Verbal codability (easy-to-name vs.\@ hard-to-name), trial number for each speaker (1-80, Z-scored) and their interaction were included as fixed effects, with random intercepts both by-participants and by-shapes and a by-participant random effects of verbal codability, trial number and their interaction.
-
+Pairs correctly matched almost all the shapes, with listeners making an incorrect response for only 4.5\% of descriptions of hard shapes and 2.8\% of descriptions of easy shapes.
 
 Trivially, harder-to-name shapes should require longer descriptions to disambiguate them from competitors. 
-To confirm this, utterance duration (Z-scored) and length were analysed using mixed effects linear models with the same fixed and random effect structure described above.
-To see whether our results pattern with previous research in showing an increase of gesturing with an increase in cognitive load, gesture duration was modelled analogously.
+To confirm this, utterance duration (log transformed) and length were analysed using mixed effects linear regression.
+Verbal codability (easy-to-name vs.\@ hard-to-name), trial number (1-80, Z-scored) and their interaction were included as fixed effects, thus controlling for any change across the experiment.
+Random intercepts both by-shapes and by-participant were also included, with by-participant random effects of verbal codability, trial number and their interaction.
 
-To investigate whether gesturing co-varies or trades off against speech, the duration of iconic gesturing (Z-scored) was analysed using mixed effects linear regression.
+To test whether our results pattern with previous research in showing an increase of gesturing with an increase in cognitive load, both the occurrence (gesture vs.\@ no gesture) and the duration (Z-scored) of iconic gesturing was modelled with the same fixed and random effect structure.
+Table \ref{table:gtypes} shows the occurrence of different types of gestures accompanying descriptions of easy- and hard-to-name shapes.
+
+
+To investigate whether gesturing co-varies or trades off against speech, the duration of iconic gesturing (Z-scored) was modelled analogously, but with the inclusion of utterance duration as a predictor .
 Utterance duration (Z-scored), verbal codability, trial number, and all interactions were included as fixed effects. 
 Random intercepts and random slopes for utterance duration, verbal codability and their interaction were included by-subject, along with random intercepts and effects of verbal codability by-shape.
 
 %\paragraph{gestures and disfluencies}?? include this or not? i guess i'll have to for thesis.
-
 \paragraph{speech and gesture and shape familiarity}
-Whilst the above analyses control for participants' familiarity with shapes by including trial number as a predictor, we were also interested in how speakers used speech and gestures when describing shapes with which they were familiar in a selection of different ways:,
-We coded a shape's familiarity as falling into one of five categories: New to the experiment; Described (speaker has described this shape before but not had it described to them); Heard (speaker has had this shape described to them before but has not described it themselves); Heard and Described (speaker has had to both describe this shape before, and has also previously had it described to them); and Heard in the previous trial (speaker has had this shape described to them in the trial immediately preceding this one).
+Whilst the above analyses control for participants' familiarity with shapes by including trial number as a predictor, we were also interested in how repeated production and exposure to descriptions of a given shape influenced speakers' use of gesture.
+We coded a shape's familiarity to a speaker as falling into one of five categories: New to the experiment; Described (speaker has described this shape before but not had it described to them); Heard (speaker has had this shape described to them before but has not described it themselves); Heard and Described (speaker has had to both describe this shape before, and has also previously had it described to them); and Heard in the previous trial (speaker has had this shape described to them in the trial immediately preceding this one).
+This was then included as a predictor in the above model of the speech-gesture relationship, in place of trial number. 
 Table \ref{table:familiar} shows a breakdown of these categories by both verbal codability and experimental block.
 
 \begin{table}
@@ -308,14 +306,14 @@ Hard-to-name & 0 & 53 & 64 & 118 & 206 \\
 \end{tabularx}
 \end{table}
 
-To investigate whether the speech-gesture relationship changes for these different levels of familiarity, we took the proportion of 
-
+\subsection{Speech production}
+As expected, the experimental manipulation of a shape's verbal codability influenced participants utterances, with hard-to-name shapes resulting in longer utterances, both in terms of duration (\resultsLM{1.19}{0.1}{>2}) and number of words (\resultsLM{10.6}{1.18}{>2}).
+%??JK this'll change for ut length
+Trial number was found to predict utterance duration, with speakers producing shorter utterances for easy-to-name shapes as the experiment progressed (\resultsLM{-0.12}{0.02}{>2}), and with this effect being greater for hard-to-name shapes (\resultsLM{-0.10}{0.03}{>2}).
+%??jk results of utterance length bit>
 
 
 \subsection{Production of gesture types}
-
-
-\subsection{Speech production}
 
 
 
