@@ -10,6 +10,14 @@
 \hypersetup{hidelinks=True}
 \usepackage{lingex} % some linguistic-style example numbering
 
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
 \newcommand*{\smex}[1]{\textit{#1}} % 'small example'
 \newcommand*{\spex}[1]{``{#1}''} % 'spoken example'
 \newcommand*{\term}[1]{\emph{#1}} % introducing a new term
@@ -211,11 +219,6 @@ Utterance length (number of words) was coded analogously, with disfluencies with
 Disfluencies were coded as falling into one of six categories: Filled pauses; Insertions; Substitutions; Articulation Errors; Deletions; Repetitions (see \citet{Shriberg1996}).
 Any speech prior to the onset of the noun-phrase was coded as either fluent or disfluent.
 
-%JK Conceptual pacts were coded during the third (both Audio and Video) stage. 
-%JK HOW DO WE CLASSIFY CONCEPTUAL PACTS. definite descriptions "THE","again","another". 
-
-
-
 \subsection{Gesture Coding}
 Gestures were identified in the Video-only stage of the coding process.
 Any movement from the fingers up to the shoulder were considered. 
@@ -277,12 +280,15 @@ Random intercepts both by-shapes and by-participant were also included, with by-
 To test whether our results pattern with previous research in showing an increase of gesturing with an increase in cognitive load, both the occurrence (gesture vs.\@ no gesture) and the duration (Z-scored) of iconic gesturing was modelled with the same fixed and random effect structure.
 Table \ref{table:gtypes} shows the occurrence of different types of gestures accompanying descriptions of easy- and hard-to-name shapes.
 
-
 To investigate whether gesturing co-varies or trades off against speech, the duration of iconic gesturing (Z-scored) was modelled analogously, but with the inclusion of utterance duration as a predictor .
 Utterance duration (Z-scored), verbal codability, trial number, and all interactions were included as fixed effects. 
 Random intercepts and random slopes for utterance duration, verbal codability and their interaction were included by-subject, along with random intercepts and effects of verbal codability by-shape.
 
 %\paragraph{gestures and disfluencies}?? include this or not? i guess i'll have to for thesis.
+
+%\paragraph{gesturing and definite/indefinite article descriptions}
+%a/an vs the/that
+
 \paragraph{speech and gesture and shape familiarity}
 Whilst the above analyses control for participants' familiarity with shapes by including trial number as a predictor, we were also interested in how repeated production and exposure to descriptions of a given shape influenced speakers' use of gesture.
 We coded a shape's familiarity to a speaker as falling into one of five categories: New to the experiment; Described (speaker has described this shape before but not had it described to them); Heard (speaker has had this shape described to them before but has not described it themselves); Heard and Described (speaker has had to both describe this shape before, and has also previously had it described to them); and Heard in the previous trial (speaker has had this shape described to them in the trial immediately preceding this one).
@@ -315,8 +321,6 @@ Trial number was found to predict utterance duration, with speakers producing sh
 
 \subsection{Production of gesture types}
 
-
-
 \section{discussion}
 duration measures - pros and cons.
 where to measure from. hangs etc. 
@@ -327,7 +331,7 @@ driven by two things.
 descriptions of easy shapes which are familiar, but have a longer utterance ("a circle, just the normal circle we've seen lots")
 and descriptions of difficult shapes with oblig iconics ("like this"[long gesture]")
 
-
+\afterpage{\blankpage}
 
 \bibliography{e5}
 
