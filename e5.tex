@@ -290,10 +290,11 @@ Trial number was found to predict utterance duration, but only for hard-to-name 
 Figure \ref{fig:gtypes} shows the occurrence of different types of gestures accompanying descriptions of easy- and hard-to-name shapes.
 \begin{figure}
   \centering
-	\includegraphics[width=\linewidth]{e5_gest_occurrence.png}
+	\includegraphics[width=\linewidth]{prop_plot.pdf}
   \caption{Occurrence of different types of gesturing by verbal-codability}
   \label{fig:gtypes}
 \end{figure}
+
 To test whether our results pattern with previous research in showing an increase of gesturing with an increase in cognitive load, both the occurrence (gesture vs.\@ no gesture) and the duration (Z-scored) of iconic gesturing were modelled using mixed effects logistic and linear regression respectively, with the same fixed and effects structure.\footnote{With some speakers producing iconic gestures for all hard-to-name shapes, verbal codability could not be included as a random effect by-participants when modelling the occurrence.}
 
 Patterning with the literature, for harder-to-name shapes, speakers were more likely to produce iconic gesturing (\resultsLog{3.30}{0.41}{<0.05}), and spent longer gesturing (\resultsLM{1.27}{0.10}{>2})
@@ -306,6 +307,14 @@ Random intercepts and random slopes for utterance duration, verbal codability an
 Figure \ref{fig:sgplot} shows the relationship between durations of speech and gesture, split by verbal-codability.
 Durations of speech and gesture co-varied: Across all shapes, as the duration of speech increased, so did the duration of iconic gesturing (\resultsLM{0.70}{0.04}{>2}).
 Importantly, however, the duration of iconic gesturing increased at a higher rate when describing hard-to-name shapes over easy-to-name shapes (\resultsLM{0.34}{0.06}{>2}).
+
+
+\begin{figure}
+  \centering
+	\includegraphics[width=\linewidth]{sgplot.pdf}
+  \caption{Relative durations of speech and gesture.}
+  \label{fig:gtypes}
+\end{figure}
 
 %JK for thesis:
 %\subsubsection{Disfluency and gesture}
@@ -335,7 +344,7 @@ Hard-to-name & 0 & 53 & 64 & 118 & 206 \\
 \end{table}
 
 This coding scheme for familiarity was included as a predictor in the model of the speech-gesture relationship in place of trial number. 
-Only having both heard \textit{and} described a shape previously was found to affect the speech-gesture relationship: For easy-to-name shapes --- but not hard-to-name shapes --- the increase of gesture with speech was reduced (\resultsLM{-0.28}{0.11}{>2}).
+Only having both heard \textit{and} described a shape previously was found to affect the speech-gesture relationship: For easy-to-name shapes --- but not hard-to-name shapes --- the increase of gesture with speech was reduced (\resultsLM{-0.28}{0.11}{>2}) (See Figure \ref{fig:prev}).
 
 \begin{figure}
   \centering
