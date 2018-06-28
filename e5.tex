@@ -18,6 +18,8 @@
     \addtocounter{page}{-1}%
     \newpage}
 
+\usepackage[modulo,displaymath,pagewise]{lineno}
+
 \newcommand*{\smex}[1]{\textit{#1}} % 'small example'
 \newcommand*{\spex}[1]{``{#1}''} % 'spoken example'
 \newcommand*{\term}[1]{\emph{#1}} % introducing a new term
@@ -58,7 +60,7 @@ Instead, gesture serves an additional communicative purpose, adding to, but not 
 
 \begin{document}
 \maketitle
-
+\linenumbers
 \noindent
 During conversation, speakers often move their hands and arms in meaningful ways.
 These movements might add emphasis to speech, indicate location, or depict properties of objects, movements, actions or space.
@@ -196,7 +198,7 @@ For positive responses to this question, a follow-up question asked them to rate
 
 \begin{figure}
   \centering
-	\includegraphics[width=\linewidth]{trial.png}
+	\includegraphics[width=\linewidth]{img/trial.png}
   \caption{Procedure of a given trial.}
   \label{fig:trial}
 \end{figure}
@@ -281,7 +283,7 @@ Trial number was found to predict utterance duration, but only for hard-to-name 
 Figure \ref{fig:gtypes} shows the occurrence of different types of gestures accompanying descriptions of easy- and hard-to-name shapes.
 \begin{figure}
   \centering
-	\includegraphics[width=\linewidth]{prop_plot.pdf}
+	\includegraphics[width=\linewidth]{img/prop_plot.pdf}
   \caption{Occurrence of different types of gesturing by verbal-codability}
   \label{fig:gtypes}
 \end{figure}
@@ -302,7 +304,7 @@ Importantly, however, the duration of iconic gesturing increased at a higher rat
 
 \begin{figure}
   \centering
-	\includegraphics[width=\linewidth]{sgplot.pdf}
+	\includegraphics[width=\linewidth]{img/sgplot.pdf}
   \caption{Relative durations of speech and gesture.}
   \label{fig:sgplot}
 \end{figure}
@@ -339,7 +341,7 @@ Only having both heard \textit{and} described a shape previously was found to af
 
 \begin{figure}
   \centering
-	\includegraphics[width=\linewidth]{prev_plot.pdf}
+	\includegraphics[width=\linewidth]{img/prev_plot.pdf}
   \caption{The speech-gesture relationship for different levels of familiarity}
   \label{fig:prev}
 \end{figure}
